@@ -7,7 +7,7 @@ npm 版本 8.9.0
 > npm install
 
 ## 启动
-> npm run dev
+> npm run start
 
 
 ## Mock

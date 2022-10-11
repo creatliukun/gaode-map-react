@@ -3,7 +3,6 @@ import './App.css';
 import Header from './component/header';
 import Tabs from './pages/tabs';
 import { Toast, } from "antd-mobile"
-import { Login } from './api/api'
 
 function App() {
   const [aMap, setAMap] = useState(null)
