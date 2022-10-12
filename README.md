@@ -24,5 +24,9 @@ git stash show 展示出来
 git stash pop 从栈中出来
 2，当git add . 之后，突然才发现分支不对。想回add之前的状态
 将文件撤销回到最近一次修改的状态：git checkout -- file
-这个file 可以通过git status查看
-
+这个file 可以通过git status查看modified
+3,git commit 操作完之后，才发现写错了一些描述，重新来写
+git commit --amend -m "重新书写上一次add new"
+4，在多人开发中，遇到了不同的开发工具或者开发的版本不同，但是又需要合并到一起的时候
+如果想要提交，就不要add . /add all 了
+可以add 具体的文件，可以通过git status查看modified：后面要提交的文件，不提交的就保留在本地
