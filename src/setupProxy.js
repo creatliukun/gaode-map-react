@@ -1,6 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
  
 module.exports = function (app) {
+  // 代理
   app.use(
     "/devApi",
     createProxyMiddleware({
