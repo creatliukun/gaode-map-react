@@ -57,3 +57,9 @@ git commit --amend -m "重新书写上一次add new"
 ```bash
 git add src/App.css
 ```
+### 5,如果是临时去帮忙，工作中当过一段时间后，发现推送代码推不上去了，可以看看是不是没有权限了
+```
+git remote -v
+```
++ fetch代表可以拉取仓库，push代表可以推送。
++ 如果没有权限只能拉取的情况下不会显示push
