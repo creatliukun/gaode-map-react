@@ -8,6 +8,7 @@ function App() {
   const [aMap, setAMap] = useState(null)
 
   useEffect(() => {
+    console.log(123)
     const myScript0 = document.createElement('div');
     // 设置标签的src属性
     myScript0.id = "container";
